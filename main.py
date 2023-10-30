@@ -1,4 +1,3 @@
-# made by tale#9706
 import pygame
 from pygame.locals import *
 from bfsAlgoritam import *
@@ -170,12 +169,6 @@ def main():
                     pygame.draw.line(win, (255,255,255), (75, 50), (sizeX, 50))
                     pygame.draw.line(win, (255,255,255), (75, 50), (75, sizeY))
                     
-                    
-        
-                    # for i in range(len(mapa)):
-                    #     print(mapa[i])
-                    # print()
-                    # print(grid_num)
 
             if event.type == pygame.KEYDOWN:
 
